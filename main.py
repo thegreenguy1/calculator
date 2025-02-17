@@ -47,9 +47,7 @@ def dele():
     except IndexError:
         ...
 
-
 listofkeys = ["7","8","9","*","4","5","6","-","1","2","3","+","0",".","/"]
-
 
 x= 0
 y = 50
@@ -65,6 +63,7 @@ for i in listofkeys:
     if i == '0':
         x = 100
         button.place(x=x,y=y)
+
 solve = tk.Button(text="=", bg="#4169e1", border=("5px", "black"), command=calculate,width=10)
 solve.place(x=50, y=250)
 cler =tk.Button(text="C",bg="#4169e1", border=("5px", "black"),width=1,height=1,font=("Consolas",15),activebackground="#a1c1f2")
