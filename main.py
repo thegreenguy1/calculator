@@ -66,7 +66,7 @@ for i in listofkeys:
 
 solve = tk.Button(text="=", bg="#4169e1", border=("5px", "black"), command=calculate,width=10)
 solve.place(x=50, y=250)
-cler =tk.Button(text="C",bg="#4169e1", border=("5px", "black"),width=1,height=1,font=("Consolas",15),activebackground="#a1c1f2")
+cler =tk.Button(text="C",bg="#4169e1", border=("5px", "black"),width=1,height=1,font=("Consolas",15),activebackground="#a1c1f2",command=clear)
 cler.place(x=50,y=200)
 delete = tk.Button(text="x",bg="#4169e1", border=("5px", "black"),width=5,command=dele,activebackground="#a1c1f2",fg="red")
 delete.place(x=170,y=250)
