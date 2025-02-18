@@ -18,17 +18,17 @@ To run this calculator on your local machine, follow these steps:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/gui-calculator.git
+   git clone https://github.com/thegreenguy1/calculator.git
    ```
 
 2. **Navigate to the project directory**
    ```sh
-   cd gui-calculator
+   cd calculator
    ```
 
 3. **Run the Python script**
    ```sh
-   python calculator.py
+   python main.py
    ```
 
 ## Usage
@@ -37,9 +37,6 @@ To run this calculator on your local machine, follow these steps:
 - Click `=` to evaluate the expression.
 - Click `C` to clear the screen.
 
-## Screenshot
-![Calculator Screenshot](screenshot.png)
-
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
@@ -47,5 +44,5 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries or suggestions, please contact: [your-email@example.com]
+For any inquiries or suggestions, please contact: [allstein119l@gmail.com]
 
